@@ -5,8 +5,9 @@ date:   2019-2-27 21:55:00
 categories: [vpn, ipsec]
 ---
 
+
 ###实验拓扑
-![Alt text| center ](./1551236715390.png)
+![](https://i.imgur.com/8caH2gc.png)
 ### 实验需求
 &emsp; 1、 根据图示配置ip地址。
 &emsp; 2、 在R1和R3上配置默认路由，确保公网连通性。
