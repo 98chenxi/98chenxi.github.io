@@ -1,8 +1,8 @@
-title: Stack Problems
+title: 我的文章
 description: My Personal Stack Problems
 author: 遥远的妳
 github: https://github.com/agusmakmun
-about: 我就是我，不一样的我。
+about: 我就是我，不一样的烟火。
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
@@ -32,14 +32,14 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
+    - text: 关于我
       url: /about/
     - text: My Projects
       url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://98chenxi.github.io/"
 baseurl: ""
 paginate: 20
 per_page: 20
