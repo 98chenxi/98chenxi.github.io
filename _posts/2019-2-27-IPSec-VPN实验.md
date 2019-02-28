@@ -2,18 +2,18 @@
 layout: post
 title:  "IPsec vpn实验"
 date:   2019-2-27 21:55:00
-categories: [vpn, ipsec]
+categories: [ipsec, vpn]
 ---
 
 
+### 实验拓扑
 
-### 实验拓扑 ###
-
-![](https://i.imgur.com/8caH2gc.png)
+![@拓扑图 | center ](https://i.imgur.com/8caH2gc.png)
 ### 实验需求
-&emsp; 1、 根据图示配置ip地址。
-&emsp; 2、 在R1和R3上配置默认路由，确保公网连通性。
-&emsp; 3、 在R1和R3上配置IPSec vpn，使pc4和pc5可以互通。
+​	1、 根据图示配置ip地址。
+​	2、 在R1和R3上配置默认路由，确保公网连通性。
+​	3、 在R1和R3上配置IPSec vpn，使pc4和pc5可以互通。
+
 ### 实验配置
 &emsp; **1、 配置各个设备的ip地址**
 　　　R1
