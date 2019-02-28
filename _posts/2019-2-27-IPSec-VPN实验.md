@@ -11,22 +11,18 @@ categories: [ipsec, vpn]
 ![@拓扑图 | center ](https://i.imgur.com/8caH2gc.png)
 ### 实验需求
 
-1、 根据图示配置ip地址。
-2、 在R1和R3上配置默认路由，确保公网连通性。
-3、 在R1和R3上配置IPSec vpn，使pc4和pc5可以互通。
+　　　1、 根据图示配置ip地址。
+　　　2、 在R1和R3上配置默认路由，确保公网连通性。
+　　　3、 在R1和R3上配置IPSec vpn，使pc4和pc5可以互通。
 
 ### 实验配置
 &emsp; **1、 配置各个设备的ip地址**
 
-R1
-
-[r1]int g0/0
-
-[r1-GigabitEthernet0/0]ip add 192.168.1.254 24
-
-[r1-GigabitEthernet0/0]int g0/1
-
-[r1-GigabitEthernet0/1]ip add 100.1.1.1 24
+　　　R1
+　　　[r1]int g0/0
+　　　[r1-GigabitEthernet0/0]ip add 192.168.1.254 24
+　　　[r1-GigabitEthernet0/0]int g0/1
+　　　[r1-GigabitEthernet0/1]ip add 100.1.1.1 24
 　　　
 　　　R2
 　　　[r2]int g0/0
