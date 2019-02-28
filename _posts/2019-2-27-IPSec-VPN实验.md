@@ -6,7 +6,9 @@ categories: [vpn, ipsec]
 ---
 
 
-###实验拓扑
+
+### 实验拓扑 ###
+
 ![](https://i.imgur.com/8caH2gc.png)
 ### 实验需求
 &emsp; 1、 根据图示配置ip地址。
@@ -35,7 +37,7 @@ categories: [vpn, ipsec]
 　![@pc1与pc2的直连测试 | center ](./1551238315117.png)
 
 ------
-　
+
 &emsp; **2、 在R1和R3上配置默认路由**
 　　　R1
 　　　[r1]ip route-static 0.0.0.0 0.0.0.0 100.1.1.2
