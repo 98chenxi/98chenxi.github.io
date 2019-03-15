@@ -76,13 +76,13 @@ categories: [rhcsa, note]
 ##### 第五题、创建用户和用户组
 
 ~~~ shell
-#创建组 -g  指定组id 
+创建组 -g  指定组id 
 groupadd -g 40000 adminuser	
-#创建用户 -G 加入附属组
+创建用户 -G 加入附属组
 useradd -G adminuser natasha
-#useradd -s  指定shell
+useradd -s  指定shell
 useradd -s /sbin/nologin sarah
-#例：passwd natasha
+例：passwd natasha
 passwd 用户名			设置密码
 ~~~
 
