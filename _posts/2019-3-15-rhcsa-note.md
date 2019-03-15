@@ -8,7 +8,7 @@ categories: [rhcsa, note]
 #### 首先破解密码进入系统
 
 
-nmtui，在里面配置一些基本信息。
+`nmtui，在里面配置一些基本信息。`
 
 ##### 第一题、修改root密码
 
