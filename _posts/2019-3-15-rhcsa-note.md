@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "rhcsa-note"
-date:   2019-3-15 9:459:00
+date:   2019-3-15 12:59:00
 categories: [rhcsa, note]
 ---
 
